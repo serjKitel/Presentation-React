@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h2>React</h2></section>
+				<section>
+					<section><h2>What is React?</h2></section>
+					<section>
+					<h2>What is React?</h2>
+					<ul>
+						<li>React is a JavaScript library which is used for creating user interfaces.</li>
+						<li>React was intended for the web, for creating websites.</li>
+						<li>React is considered an ideal tool for building scalable web applications.</li>
+						<li>React is relatively easy to learn, with a clear and concise syntax.</li>
+					</ul>
+				    </section>
+				</section>
+				<section>
+					<section><h2>Virtual DOM</h2></section>
+					<section><h2>Virtual DOM</h2><img src="./img1.png" alt=""></section>
+					<section>
+					<!-- <h2>Virtual DOM</h2> -->
+					<ul>
+						<li>The virtual DOM is a lightweight copy of the real DOM. And a distinctive feature of React is that this library works with the virtual DOM, and not with the real one.</li>
+						<li>If the application needs to know information about the state of elements, it accesses the Virtual DOM.</li>
+						<li>If elements of a web page need to be modified, the changes are first made to the virtual DOM. Then the new state of the virtual DOM is compared with the current state. If these states differ, React finds the minimum number of manipulations required to update the real DOM to the new state and performs them.</li>
+						<li>React is relatively easy to learn, with a clear and concise syntax.</li>
+					</ul>
+				    </section>
+				</section>
+				<section>
+					<section><h2>What are React components?</h2></section>
+					<section><img src="./img2.jpg" alt=""></section>
+					<section>
+						<h2>React provides us with two ways of creating a component:</h2>
+						<ul>
+							<li>Class Component</li>
+							<li>Functional Component</li>
+						</ul>
+					</section>
+					<section><img src="./img3.jpg" alt=""></section>
+					<section>
+						<h2>The component-based approach includes two key terms:</h2>
+						<ul>
+							<li>Composition</li>
+							<li>Decomposition</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section><h2>React Hooks</h2></section>
+					<section><img src="./img4.jpg" alt=""></section>
+				</section>
+				<section><h2>Thank you!</h2></section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
